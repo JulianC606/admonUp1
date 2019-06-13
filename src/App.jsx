@@ -3,7 +3,8 @@ import './App.scss';
 import Header from './sections/header/header';
 import Taylor from './sections/taylor/taylor';
 import Fayol from './sections/fayol/fayol';
-import AFayol from './sections/act-fayol/act-fayol'
+import AFayol from './sections/act-fayol/act-fayol';
+import Beneficios from './sections/beneficios/beneficios';
 
 function App(){
   return(
@@ -12,6 +13,7 @@ function App(){
       <Taylor/>
       <Fayol/>
       <AFayol/>
+      <Beneficios/>
     </div>
   )
 }
