@@ -1,5 +1,5 @@
 import React from 'react';
-import Fayol from './fayolParallax';
+import Parallax from './fayolParallax';
 
 const contents = 
 [
@@ -61,16 +61,16 @@ const contents =
     }
 ]
 
-function Faylor(){
+function Fayol(){
     return(
         <div id="fayol">
             <h1>PRINCIPIOS DE FAYOL</h1>
             <br/>
             {contents.map((content, i) => 
-                <Fayol title={content.title} principle={content.principle} i={i} key={i}/>
+                <Parallax title={content.title} principle={content.principle} i={i} key={i}/>
             )}
         </div>
     )
 }
 
-export default Faylor;
+export default Fayol;

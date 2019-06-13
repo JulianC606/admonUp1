@@ -7,12 +7,12 @@ function ParallaxTaylor(props) {
         <Plx
             parallaxData={parallaxData}
             style={{
-            height: "40vw",
-            width: "50vw",
-            margin: "auto",
             }}
         >
-            <h1>{props.content}</h1>
+          <div className="taylorContainer">
+            <h1 className="taylorC">{props.content}</h1>
+            <h1 className="taylorI">{props.i+1}</h1>
+          </div> 
         </Plx>
         <div style={{ height: "5vh" }} />
     </div>
@@ -22,7 +22,7 @@ function ParallaxTaylor(props) {
 const parallaxData = [
   {
     start: "self",
-    startOffset: "10vw",
+    startOffset: "10vh",
     end: "self",
     endOffset: "40vh",
     easing: "easeInSine",
@@ -47,9 +47,9 @@ const parallaxData = [
   },
   {
     start: "self",
-    startOffset: "60vh",
+    startOffset: "80vh",
     end: "self",
-    endOffset: "100vh",
+    endOffset: "120vh",
     easing: "easeInSine",
     properties: [
         {

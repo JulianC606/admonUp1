@@ -1,6 +1,7 @@
 h1{
     color: white;
     text-align: center;
+    font-size: 1.5rem;
 }
 #taylorTitle{
     color: white;
@@ -8,4 +9,24 @@ h1{
 }
 #taylor{
     padding: 20vh 0;
+}
+.taylorContainer{
+    display: grid;
+    grid-template: 1fr / 0.25fr 1fr;
+    grid-gap: 5vw;
+    .taylorC{
+        grid-column: 2 / 3;
+        grid-row: 1/2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .taylorI{
+        grid-column: 1 / 2;
+        grid-row: 1/2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10rem;
+    }
 }

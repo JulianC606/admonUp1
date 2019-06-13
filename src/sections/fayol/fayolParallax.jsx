@@ -9,9 +9,7 @@ function Fayol(props) {
       <Plx
         parallaxData={parallaxData}
         style={{
-          height: "auto",
-          width: "40vw",
-          margin: "auto"
+          
         }}
       >
         {
@@ -34,7 +32,7 @@ const parallaxData = [
     start: "self",
     startOffset: "0",
     end: "self",
-    endOffset: "50vh",
+    endOffset: "60vh",
     easing: "easeInSine",
     properties: [
         {
@@ -52,7 +50,7 @@ const parallaxData = [
   },
   {
     start: "self",
-    startOffset: "60vh",
+    startOffset: "70vh",
     end: "self",
     endOffset: "100vh",
     easing: "easeInSine",

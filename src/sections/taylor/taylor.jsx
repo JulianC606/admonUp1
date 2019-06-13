@@ -18,7 +18,7 @@ function Taylor(){
         <div id="taylor">
             <h1 id="taylorTitle">PRINCIPIOS DE TAYLOR</h1>
             {contents.map((content, i) =>
-                <Item content={content} key={i}/>
+                <Item content={content} key={i} i={i}/>
             )}
         </div>
         

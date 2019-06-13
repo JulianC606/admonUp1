@@ -9,7 +9,7 @@ function Header(){
             <ul>
                 <li><a href="#taylor">Principios de Taylor</a></li>
                 <li><a href="#fayol">Principios de Fayol</a></li>
-                <li><a href="#">Actividades de Fayol</a></li>
+                <li><a href="#Afayol">Actividades de Fayol</a></li>
                 <li><a href="#">Beneficios de la técnología</a></li>
             </ul>
         </header>
